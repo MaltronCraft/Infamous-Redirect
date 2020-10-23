@@ -1,8 +1,7 @@
-var express = require('express')
-var { createProxy } = require('http-proxy-middleware');
-var fs = require('fs');
+const express = require('express')
+const { createProxy } = require('http-proxy-middleware');
 
-var app = express()
+const app = express()
 
 app.use('*',  createProxy({ target: 'http://web.infamouscluster.tk/', port: 25627, changeOrigin: true }))
 
