@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var proxyServer = proxy({
   target: 'http://web.infamouscluster.tk/',
-  port: <To Configure On Server>,
+  port: 25627,
   changeOrigin: true
 })
 
