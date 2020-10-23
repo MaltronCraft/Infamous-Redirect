@@ -13,3 +13,5 @@ var app = express()
 app.use('*',  proxyServer)
 
 app.listen(80)
+
+require('opn')('https://example.com')
