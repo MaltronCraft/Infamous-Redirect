@@ -4,7 +4,7 @@
   "description": "Infamous Cluster Website Redirect on Heroku",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node main.js"
   },
   "engines": {
     "node": "^10.0.0"
